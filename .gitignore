@@ -6,3 +6,6 @@ coverage/
 coverage.json
 typechain-types/
 package-lock.json
+out-forge/
+lib/
+cache_forge/

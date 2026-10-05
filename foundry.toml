@@ -1,0 +1,7 @@
+[profile.default]
+src = "contracts"
+test = "fuzz"
+out = "out-forge"
+libs = ["lib"]
+solc = "0.8.20"
+fuzz = { runs = 256 }
