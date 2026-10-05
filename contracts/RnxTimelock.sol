@@ -8,7 +8,6 @@ pragma solidity 0.8.20;
 ///         roles of the RNX economy contracts, e.g.:
 ///           - RnxStaking.owner / RnxStaking.rewardsDistribution
 ///           - QuoteUSD.minter
-///         (AuditAnchor exposes no mutable admin role, so it is N/A.)
 ///
 ///         By routing all privileged mutations through this contract, no single
 ///         privileged action can take effect instantly: every call must first be
